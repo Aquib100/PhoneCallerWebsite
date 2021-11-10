@@ -1,1 +1,40 @@
+.callerdiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
 
+button{
+  margin-left: 10px;
+  padding: 7px 20px;
+  background-color: limegreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: white;
+  color: limegreen;
+  transform: rotate(360deg);
+  transition: 0.2s;
+  border: 1.5px solid limegreen;
+}
+
+input{
+  border-radius: 4px;
+  border-width: 1.5px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Comic Sans MS';
+}
+
+p{
+  margin-top: 50px;
+  font-size:25px;
+  color: limegreen;
+  font-weight: 700;
+  font-family: 'Comic Sans MS';
+}
